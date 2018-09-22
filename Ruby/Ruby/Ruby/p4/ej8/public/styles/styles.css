@@ -1,0 +1,77 @@
+html{
+	background-image: url("/img/background.jpg");
+	position: relative;
+	min-height: 100%;
+}
+body{
+	display: inline-block;
+	width: 99%;
+	height: 100%;
+	float: 99%;
+	color: #ff7e00;
+	font-family: 'Helvetica';
+}
+
+/**** INDEX ****/
+
+.playForm{
+	float: left;
+	width: 55%;
+	height: 100%;
+	display: inline-block;
+	padding: 24% 0% 0% 40%;
+}
+
+.playButton{
+	color: white;
+	background-color: #da5501;
+	border: none;
+	width: 25%;
+	height: 60px;
+	border-radius: 3px;
+	font-size: 32px;
+	font-weight: 600;
+	float: left;
+}
+
+/**** GAME ****/
+
+.wrapper{
+	float: left;
+	width: 18%;
+	height: 100%;
+	display: inline-block;
+	background-color: rgba(17, 17, 17, 0.9);;
+	padding: 1%;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	margin: 22% 39%;
+}
+.letterInput{
+	color: white;
+	background-color: black;
+	border: none;
+	height: 36px;
+	border-radius: 5px;
+	padding: 0px 0px 0px 8px;
+}
+.sendLetter{
+	height: 36px;
+	background-color: #7b2b00;
+	border: none;
+	color: white;
+	width: 35%;
+	border-radius: 2px;
+}
+
+/**** ERROR ****/
+
+.msg{
+	float: left;
+	color: red;
+	font-size: 26px;
+	background: black;
+	padding: 1%;
+	border-radius: 8px;
+	margin: 20% 1% 1% 42%;
+}
