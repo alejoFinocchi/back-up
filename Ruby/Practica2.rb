@@ -37,3 +37,18 @@ def cuanto_falta(time=nil)
         return time - Time.now
     end
 end
+
+class countable
+    private method
+    private cant = 0
+    def count_invocations_of (m)
+        method = m
+    end
+    def invoked?
+        return cant >= 1
+    end
+    def invoked
+        return cant
+    end
+end
+
